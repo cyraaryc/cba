@@ -20,6 +20,6 @@ const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
-  counter += 1;
+  counter += Math.random();
   counterElement.textContent = counter.toString();
 });
